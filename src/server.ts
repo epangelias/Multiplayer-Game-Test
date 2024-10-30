@@ -1,7 +1,7 @@
 import { serve, Server } from "https://deno.land/std/http/server.ts";
 import { existsSync } from "https://deno.land/std/fs/mod.ts";
 //allows for websocket
-import { acceptable, acceptWebSocket } from "https://deno.land/std/ws/mod.ts";
+import { acceptable, acceptWebSocket } from "https://deno.land/std@0.112.0/ws/mod.ts";
 
 //Middleware to serve files
 import { Application } from "https://deno.land/x/abc@v1.2.4/mod.ts";
