@@ -3,7 +3,7 @@ import {
   isWebSocketCloseEvent,
   WebSocket,
   WebSocketEvent,
-} from "https://deno.land/std/ws/mod.ts";
+} from "https://deno.land/std@0.112.0/ws/mod.ts";
 import { v4 } from "https://deno.land/std/uuid/mod.ts";
 import "https://deno.land/x/dotenv/load.ts";
 
